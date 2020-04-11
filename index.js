@@ -44,8 +44,10 @@ kittens.unshift(name);
 }
 
 function removeLastKitten(){
-
-
+var kittens = ["Milo", "Otis", "Garfield"];
+var cat;
+cat = kittens.pop();
+return kittens;
 }
 
 
